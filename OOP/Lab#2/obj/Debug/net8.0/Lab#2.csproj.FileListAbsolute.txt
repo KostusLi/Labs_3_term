@@ -1,0 +1,15 @@
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\Lab#2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\Lab#2.AssemblyInfoInputs.cache
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\Lab#2.AssemblyInfo.cs
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\Lab#2.csproj.CoreCompileInputs.cache
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\Lab#2.sourcelink.json
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\bin\Debug\net8.0\Lab#2.exe
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\bin\Debug\net8.0\Lab#2.deps.json
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\bin\Debug\net8.0\Lab#2.runtimeconfig.json
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\bin\Debug\net8.0\Lab#2.dll
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\bin\Debug\net8.0\Lab#2.pdb
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\Lab#2.dll
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\refint\Lab#2.dll
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\Lab#2.pdb
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\Lab#2.genruntimeconfig.cache
+C:\Из рабочего стола\Labs 3 sem\OOP\Lab#2\obj\Debug\net8.0\ref\Lab#2.dll

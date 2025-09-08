@@ -8,6 +8,8 @@ namespace firstStep
     {
         static void Main()
         {
+            //111111111111
+
             //
             //bool check = Convert.ToBoolean(int.Parse((Console.ReadLine())));
             //byte a = Convert.ToByte(Console.ReadLine());
@@ -16,7 +18,7 @@ namespace firstStep
             //float f = float.Parse(Console.ReadLine());
             //int g = int.Parse(Console.ReadLine());
             //long k = long.Parse(Console.ReadLine());
-            //short m =short.Parse(Console.ReadLine());
+            //short m = short.Parse(Console.ReadLine());  
             //sbyte n = sbyte.Parse(Console.ReadLine());
             //ushort o = ushort.Parse(Console.ReadLine());
             //uint p = uint.Parse(Console.ReadLine());
@@ -24,8 +26,10 @@ namespace firstStep
             //decimal d = decimal.Parse(Console.ReadLine());
             //string b = Console.ReadLine();
             //object r = Console.ReadLine();
+            //nint s1 = nint.Parse(Console.ReadLine());
+            //nuint t1 = nuint.Parse(Console.ReadLine());
 
-            //Console.WriteLine(check.ToString() + " " + a + " " + c + " " + e + " " + f + " " + g + " " + k + " " + m + " " + n + " " + o + " " + p + " " + q + " " + d + " " + b + " " + r);
+            //Console.WriteLine(check.ToString() + " " + a + " " + c + " " + e + " " + f + " " + g + " " + k + " " + m + " " + n + " " + o + " " + p + " " + q + " " + d + " " + b + " " + r + " " + t1 + " " + s1);
 
 
             Console.WriteLine("===============================================================");
@@ -98,6 +102,8 @@ namespace firstStep
             Console.WriteLine("===============================================================");
 
 
+            //2222222222222
+
             //
             string v = new string("Hello, brothers!");
             string v1 = "Hello,brothers!";
@@ -139,6 +145,7 @@ namespace firstStep
             Console.WriteLine(string.IsNullOrWhiteSpace(v3));
 
             Console.WriteLine("===============================================================");
+
 
             //
             StringBuilder v5 = new StringBuilder("don't forget about");
@@ -307,9 +314,6 @@ namespace firstStep
 
             fChecked();
             fUnchecked();
-
-
-            //
 
         }
     }

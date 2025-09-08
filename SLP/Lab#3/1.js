@@ -1,4 +1,4 @@
-//1
+﻿//1
 let arr = [1, [1, 2, [3, 4]], [2, 4]];
 let result = arr.reduce((arr, current)=>arr.concat(current), []);
 let result2 = result.reduce((arr, current)=>arr.concat(current), []);
@@ -45,3 +45,41 @@ console.log(total1-total2);
 
 console.log(arr4);
 console.log(arr5);
+
+
+
+//5
+const obj1 = {1: "arr",
+              2: "bty",
+              3: "c"};
+
+const obj2 = {12: "Rjhy", 8: "tjgrfk", 7: "tkjgr" };
+const resultObj = Object.assign(obj1, obj2);
+console.log(resultObj);
+
+
+//6
+let maxCount = prompt("Введите кол-во этажей");
+
+let num1;
+if(maxCount%2==0)
+{
+    num1 = (maxCount-2)/2;
+}else {
+    num1 = maxCount-1;
+}
+
+for(let i=0; i<maxCount; i++)
+{
+    let str = "";
+
+    for (let j = 0; j < maxCount - i - 1; j++) {
+        str += " ";
+    }
+
+    for (let k = 0; k < 2 * i + 1; k++) {
+        str += "*";
+    }
+
+    console.log(str);
+}
