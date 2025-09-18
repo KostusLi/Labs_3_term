@@ -5,6 +5,9 @@ let result2 = result.reduce((arr, current)=>arr.concat(current), []);
 console.log(result2);
 
 
+console.log("==============================");
+
+
 //2
 const arr1 = [20,2,[7,5,3,[100,5, 67],3],56,4];
 const sum = arr => arr.reduce((res, el) => {
@@ -12,6 +15,8 @@ const sum = arr => arr.reduce((res, el) => {
 
 console.log(sum(arr1));
 
+
+console.log("==============================");
 
 //3
 let arr3 = [
@@ -23,6 +28,8 @@ let arr3 = [
 let res = arr3.filter(el=>el.age>17);
 console.log(res);
 
+
+console.log("==============================");
 
 //4
 let str = "Hell";
@@ -47,27 +54,29 @@ console.log(arr4);
 console.log(arr5);
 
 
+console.log("==============================");
+
 
 //5
 const obj1 = {1: "arr",
               2: "bty",
               3: "c"};
 
-const obj2 = {12: "Rjhy", 8: "tjgrfk", 7: "tkjgr" };
+const obj2 = {12: "Rjhy", 8: "tjgrfk", 7: "tkjgr" }; 
+const obj3 = {"a":8, "b":78};
+const obj4 = {"a":98, "c":120};
+const resObj0 = Object.assign(obj3, obj4);
 const resultObj = Object.assign(obj1, obj2);
+console.log(resObj0);
 console.log(resultObj);
+
+
+console.log("==============================");
 
 
 //6
 let maxCount = prompt("Введите кол-во этажей");
 
-let num1;
-if(maxCount%2==0)
-{
-    num1 = (maxCount-2)/2;
-}else {
-    num1 = maxCount-1;
-}
 
 for(let i=0; i<maxCount; i++)
 {

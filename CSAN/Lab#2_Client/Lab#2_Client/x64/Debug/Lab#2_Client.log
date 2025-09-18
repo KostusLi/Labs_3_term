@@ -1,0 +1,23 @@
+﻿Build started 16.09.2025 15:01:30.
+Logging verbosity is set to: Normal.     1>Project "C:\Из рабочего стола\Labs 3 sem\CSAN\Lab#2_Client\Lab#2_Client.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+       InitializeBuildStatus:
+         Creating "Lab#2_Client\x64\Debug\Lab#2_Client.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Lab#2_Client\x64\Debug\Lab#2_Client.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Lab#2_Client\x64\Debug\\" /Fd"Lab#2_Client\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "Lab#2_Client.cpp"
+         Lab#2_Client.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Из рабочего стола\Labs 3 sem\CSAN\Lab#2_Client\x64\Debug\Lab#2_Client.exe" /INCREMENTAL /ILK:"Lab#2_Client\x64\Debug\Lab#2_Client.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Из рабочего стола\Labs 3 sem\CSAN\Lab#2_Client\x64\Debug\Lab#2_Client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Из рабочего стола\Labs 3 sem\CSAN\Lab#2_Client\x64\Debug\Lab#2_Client.lib" /MACHINE:X64 "Lab#2_Client\x64\Debug\Lab#2_Client.obj"
+         Lab#2_Client.vcxproj -> C:\Из рабочего стола\Labs 3 sem\CSAN\Lab#2_Client\x64\Debug\Lab#2_Client.exe
+       FinalizeBuildStatus:
+         Deleting file "Lab#2_Client\x64\Debug\Lab#2_Client.tlog\unsuccessfulbuild".
+         Touching "Lab#2_Client\x64\Debug\Lab#2_Client.tlog\Lab#2_Client.lastbuildstate".
+     1>Done Building Project "C:\Из рабочего стола\Labs 3 sem\CSAN\Lab#2_Client\Lab#2_Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.83

@@ -5,7 +5,7 @@
 #include <string>
 #include <fstream>
 #include <cwchar>
-#include <TCHAR.H>
+#include <TCHAR.H>z
 #include <time.h>
 
 #include "Error.h"

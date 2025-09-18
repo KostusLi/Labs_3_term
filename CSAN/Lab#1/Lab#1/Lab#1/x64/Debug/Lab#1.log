@@ -1,4 +1,4 @@
-﻿Build started 08.09.2025 15:14:00.
+﻿Build started 09.09.2025 15:30:33.
 Logging verbosity is set to: Normal.     1>Project "C:\Из рабочего стола\Labs 3 sem\CSAN\Lab#1\Lab#1\Lab#1.vcxproj" on node 2 (Build target(s)).
      1>PrepareForBuild:
          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -20,4 +20,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.75
+Time Elapsed 00:00:02.45

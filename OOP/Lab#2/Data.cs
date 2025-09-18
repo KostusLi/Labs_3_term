@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 class Data
 {
-    private int day { get; set; }
+    private int day;
     private int month { get; set; }
     private int year { get; }
     public int number = 0;
@@ -14,27 +14,17 @@ class Data
 
     private static int count = 0;
 
+    public int Day
+    {
+        get { return day; }
+        set { day = value; }
+    }
+
     private Boolean validateDay(int month)
     {
-        int[] arrMonth = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
-
-        int low = 0, middle;
-        int high = arrMonth.Length-1;
-        while (low <= high)
+        if ((month < 7 && month%2==0) || (month>=7 && month%2!=0))
         {
-            middle = (low + high) / 2;
-            if (month < arrMonth[middle])
-                high = middle - 1;
-            else if(month > arrMonth[middle]) 
-                low = middle+1;
-            else
-            {
-                if ((middle < 7 && middle%2==0) || (middle>=7 && middle%2!=0))
-                {
-                    return true;
-                }
-                break;
-            }
+            return true;
         }
         return false;
 
@@ -49,7 +39,7 @@ class Data
         }
         else
         {
-            this.month = month%12;
+            this.month = month%12+1;
         }
             this.year = year;
         if(validateDay(month))
@@ -62,7 +52,7 @@ class Data
         }
         else if(month==2)
         {
-            if(year%4==0)
+            if((year%4==0  && year%100!=0) || year%400==0)
             {
                 if(day>=1 && day<=29)
                 {
@@ -148,17 +138,15 @@ class Data
 
     public override bool Equals(object obj)
     {
-        if (obj == null || GetType() != obj.GetType())
+        if (obj is Data other)
         {
-            return false;
+            return day == other.day &&
+                   month == other.month &&
+                   year == other.year;
         }
-
-        Data other = (Data)obj;
-
-        return day == other.day &&
-            month == other.month &&
-            year == other.year;
+        return false;
     }
+
 
     public override int GetHashCode()
     {
@@ -182,13 +170,13 @@ class Data
 
     public partial class Person
     {
-        public void Move() => Console.WriteLine("Человек идёт");
+        public void Pit() => Console.WriteLine("Питер Паркер");
 
     }
 
     public partial class Person
     {
-        public void Eat() => Console.WriteLine("Человек ест");
+        public void Par() => Console.WriteLine("Паркер Питер");
     }
 
 
@@ -217,8 +205,8 @@ class Data
         Console.WriteLine("==============================================");
 
         Person p = new Person();
-        p.Move(); 
-        p.Eat();
+        p.Pit(); 
+        p.Par();
 
         Console.WriteLine("==============================================");
 
@@ -242,6 +230,36 @@ class Data
         };
 
         Console.WriteLine(temp);
+
+        Console.WriteLine("==============================================");
+
+        Data[] dates = {
+    new Data(5, 1, 2018),
+    new Data(23, 4, 2007),
+    new Data(12, 11, 2023),
+    new Data(5, 1, 2023)
+        };
+
+
+        int targetYear = 2023;
+        foreach (var date in dates)
+        {
+            if (date.year == targetYear)
+            {
+                Console.WriteLine(date);
+            }
+        }
+
+        Console.WriteLine("==============================================");
+
+        int targetDay = 5;
+        foreach (var date in dates)
+        {
+            if (date.day == targetDay)
+            {
+                Console.WriteLine(date);
+            }
+        }
 
 
     }

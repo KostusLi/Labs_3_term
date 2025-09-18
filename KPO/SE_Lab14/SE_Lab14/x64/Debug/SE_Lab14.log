@@ -1,4 +1,4 @@
-﻿Build started 03.09.2025 12:48:50.
+﻿Build started 17.09.2025 21:56:12.
 Logging verbosity is set to: Normal.     1>Project "C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\SE_Lab14.vcxproj" on node 2 (Build target(s)).
      1>PrepareForBuild:
          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -6,14 +6,34 @@ Logging verbosity is set to: Normal.     1>Project "C:\Из рабочего с�
          Creating "SE_Lab14\x64\Debug\SE_Lab14.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
          Touching "SE_Lab14\x64\Debug\SE_Lab14.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"SE_Lab14\x64\Debug\\" /Fd"SE_Lab14\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp In.cpp Log.cpp SE_Lab14.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"SE_Lab14\x64\Debug\\" /Fd"SE_Lab14\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp In.cpp Log.cpp Out.cpp Parm.cpp SE_Lab14.cpp
          Error.cpp
+     1>C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         (compiling source file 'Error.cpp')
+         
          In.cpp
+     1>C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         (compiling source file 'In.cpp')
+         
          Log.cpp
+     1>C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         (compiling source file 'Log.cpp')
+         
+         Out.cpp
+     1>C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         (compiling source file 'Out.cpp')
+         
+         Parm.cpp
+     1>C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         (compiling source file 'Parm.cpp')
+         
          SE_Lab14.cpp
+     1>C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         (compiling source file 'SE_Lab14.cpp')
+         
          Generating Code...
        Link:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\x64\Debug\SE_Lab14.exe" /INCREMENTAL /ILK:"SE_Lab14\x64\Debug\SE_Lab14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\x64\Debug\SE_Lab14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\x64\Debug\SE_Lab14.lib" /MACHINE:X64 SE_Lab14\x64\Debug\Error.obj
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\x64\Debug\SE_Lab14.exe" /INCREMENTAL /ILK:"SE_Lab14\x64\Debug\SE_Lab14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\x64\Debug\SE_Lab14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\x64\Debug\SE_Lab14.lib" /MACHINE:X64 SE_Lab14\x64\Debug\Error.obj
          SE_Lab14\x64\Debug\In.obj
          SE_Lab14\x64\Debug\Log.obj
          SE_Lab14\x64\Debug\Out.obj
@@ -26,7 +46,17 @@ Logging verbosity is set to: Normal.     1>Project "C:\Из рабочего с�
      1>Done Building Project "C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\SE_Lab14.vcxproj" (Build target(s)).
 
 Build succeeded.
-    0 Warning(s)
+
+       "C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\SE_Lab14.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab14\stdafx.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+
+    6 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.63
+Time Elapsed 00:00:05.12
