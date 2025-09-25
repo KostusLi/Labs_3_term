@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "chock",
+    "percentOfSugar": 23,
+    "weight": 56
+  },
+  {
+    "Name": "maria",
+    "percentOfSugar": 4,
+    "weight": 42
+  }
+]

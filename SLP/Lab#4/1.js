@@ -171,6 +171,8 @@ function countPosition(map)
 
 console.log("================================")
 
+
+
 //4
 let weakMap = new WeakMap();
 
