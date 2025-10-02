@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 public class Candy : Confectionery, IEdible
 {
+
     public virtual void recipe() {
         Console.WriteLine("Рецепт какой-то конфеты");
     }
@@ -16,8 +17,7 @@ public class Candy : Confectionery, IEdible
     {
         Console.WriteLine("Конфету съели(((");
     }
-
-
+    
     public override void buyProduct()
     {
         Console.WriteLine("Купили конфету");

@@ -17,7 +17,7 @@ let counter2 = makeCounter();
 
 alert(counter2());*/
 
-//[[Environment]], которое хранит ссылку на лексическое окружение, в котором была создана функция:
+
 
 
 //2
@@ -33,7 +33,7 @@ function a(a)
 
 console.log(a(3)(4)(5));
 let fixFirstWall = a(6);
-console.log(fixFirstWall(4)(10))
+console.log(fixFirstWall(4)(10));
 
 
 console.log("===============================================");

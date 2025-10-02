@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,7 +8,6 @@ using System.Threading.Tasks;
 public sealed class BoxOfCandy<T>
 {
     public List<T> list = new List<T>();
-
 
 
     public void add(T item)
@@ -27,6 +27,7 @@ public sealed class BoxOfCandy<T>
 
     public void AppDomainSetup(int index, T value)
     {
+        Debug.Assert(index<list.Count, "Выход за границы массива");
         list[index] = value;
     }
 
@@ -35,6 +36,7 @@ public sealed class BoxOfCandy<T>
         foreach (var item in list)
         {
             Console.WriteLine(item);
+            FileLogger.logMessageFile("Вывели списочек");
         }
     }
 

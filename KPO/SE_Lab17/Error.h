@@ -12,22 +12,14 @@
                                 ERROR_ENTRY_NODEF(id + 80), ERROR_ENTRY_NODEF(id + 90)
 #define ERROR_MAX_ENTRY 1000
 
-// ---- Коды ошибок ----
-#define ERROR_SOURCE_OPEN      100   // не удалось открыть исходный файл
-#define ERROR_SOURCE_CLOSE     101   // не удалось закрыть исходный файл
-#define ERROR_SOURCE_EMPTY     102   // пустой исходный файл
-#define ERROR_INCORRECT_SYMBOL 103   // некорректный символ в исходном файле
-#define ERROR_IDTABLE_OVERFLOW 200   // переполнение таблицы идентификаторов
-#define ERROR_LEXTABLE_OVERFLOW 201  // переполнение таблицы лексем
-#define ERROR_ID_NOT_FOUND     202   // идентификатор не найден
-#define ERROR_LEX_NOT_FOUND    203   // лексема не найдена
-#define ERROR_WRONG_LITERAL    204   // неверный литерал (числовой или строковый)
-#define ERROR_WRONG_NUMBER     205   // слишком большое число
-#define ERROR_STR_TOOLONG      206   // строковый литерал слишком длинный
-#define ERROR_UNEXPECTED_TOKEN 207   // неожиданная лексема
-#define ERROR_PARAMS           300   // ошибка в параметрах командной строки
-#define ERROR_LOG              301   // ошибка открытия/закрытия log-файла
-#define ERROR_OUT              302   // ошибка открытия/закрытия out-файла
+#define ERROR_SOURCE_EMPTY     102 
+#define ERROR_INCORRECT_SYMBOL 103
+#define ERROR_IDTABLE_OVERFLOW 200
+#define ERROR_LEXTABLE_OVERFLOW 201
+#define ERROR_ID_NOT_FOUND     202
+#define ERROR_LEX_NOT_FOUND    203
+#define ERROR_WRONG_NUMBER     205
+#define ERROR_STR_TOOLONG 206
 
 
 namespace Error

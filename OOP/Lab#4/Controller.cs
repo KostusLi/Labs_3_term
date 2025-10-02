@@ -27,6 +27,23 @@ public class Controller
 
     public void searchCandy(int leftBorder, int rightBorder)
     {
+        try
+        {
+            if (leftBorder < 0 || rightBorder < 0)
+            {
+                throw new OutRangeException("Левая граница либо правая меньше 0!!!");
+            }
+        }
+        catch(OutRangeException ex)
+        {
+            FileLogger.logMessageFile(ex.Message + '/' + ex.StackTrace);
+            ConsoleLogger.logMessageConsole(ex.Message + '/' + ex.StackTrace);
+        }
+        finally
+        {
+            Console.WriteLine("Будь внимательней!!!!");
+        }
+
         foreach(var item in this.boxik.list)
         {
             if(item.percentOfSugar>=leftBorder && item.percentOfSugar<=rightBorder)

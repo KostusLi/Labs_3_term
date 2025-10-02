@@ -1,5 +1,5 @@
-// IT.cpp
 #include "IT.h"
+#include "Error.h"
 #include <stdexcept>
 #include <cstring>
 
@@ -11,23 +11,21 @@ namespace IT {
         it.maxsize = size;
         it.size = 0;
         it.table = new Entry[size];
-        // инициализация (необязательная)
         return it;
     }
 
     void IT::Add(IdTable& idtable, const Entry& entry) {
-        // проверка дубликатов
         for (int i = 0; i < idtable.size; ++i) {
             if (strncmp(idtable.table[i].id, entry.id, ID_MAXSIZE) == 0) {
-                return; // уже есть
+                return;
             }
         }
 
         if (idtable.size >= idtable.maxsize) {
-            throw std::overflow_error("IT::Add - id table overflow");
+            throw ERROR_THROW(ERROR_IDTABLE_OVERFLOW);
         }
 
-        idtable.table[idtable.size] = entry; // копирование одного Entry (теперь небольшой)
+        idtable.table[idtable.size] = entry;
         idtable.size++;
     }
 
@@ -37,7 +35,7 @@ namespace IT {
                 return idtable.table[i];
             }
         }
-        throw std::out_of_range("IT::GetEntry - identifier not found");
+        throw ERROR_THROW(ERROR_ID_NOT_FOUND);
     }
 
     void Delete(IdTable& idtable) {
@@ -49,4 +47,4 @@ namespace IT {
         idtable.maxsize = 0;
     }
 
-} // namespace IT
+}

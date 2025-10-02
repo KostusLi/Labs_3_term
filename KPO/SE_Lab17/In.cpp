@@ -61,6 +61,11 @@ namespace In
         if (!fin.is_open())
             throw ERROR_THROW(110);
 
+        if (fin.peek() == std::ifstream::traits_type::eof())
+        {
+            throw ERROR_THROW(ERROR_SOURCE_EMPTY);
+        }
+
         string buffer;
         while (getline(fin, buffer) && in.size<IN_MAX_LEN_TEXT)
         {

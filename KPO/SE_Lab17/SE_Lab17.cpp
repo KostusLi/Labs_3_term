@@ -19,21 +19,24 @@ using namespace std;
 
 void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
     std::string source(reinterpret_cast<char*>(in.text), in.size);
-    int line = 1;
+    int line = 1;      // текущая строка
+    int column = 1;    // текущая позиция в строке
 
     for (size_t i = 0; i < source.size(); ) {
         char c = source[i];
 
-        // --- перевод строки ---
+        // обработка перехода на новую строку
         if (c == '\n') {
             line++;
+            column = 1;
             i++;
             continue;
         }
 
-        // --- пропуск пробелов и табов ---
+        // обработка пробелов и табуляций
         if (isspace((unsigned char)c)) {
             i++;
+            column++;
             continue;
         }
 
@@ -41,30 +44,29 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
         lex.sn = line;
         lex.idxTI = LT_TI_NULLIDX;
 
-        // --- идентификатор или ключевое слово ---
+        // идентификаторы и ключевые слова
         if (isalpha((unsigned char)c)) {
             std::string word;
             while (i < source.size() && (isalnum((unsigned char)source[i]) || source[i] == '_')) {
                 word += source[i++];
+                column++;
             }
 
-            // ключевые слова
-            if (word == "integer")      lex.lexema[0] = LEX_INTEGER;
-            else if (word == "string")  lex.lexema[0] = LEX_STRING;
-            else if (word == "function")lex.lexema[0] = LEX_FUNCTION;
-            else if (word == "declare") lex.lexema[0] = LEX_DECLARE;
-            else if (word == "return")  lex.lexema[0] = LEX_RETURN;
-            else if (word == "print")   lex.lexema[0] = LEX_PRINT;
-            else if (word == "main")    lex.lexema[0] = LEX_MAIN;
+            if (word == "integer")       lex.lexema[0] = LEX_INTEGER;
+            else if (word == "string")   lex.lexema[0] = LEX_STRING;
+            else if (word == "function") lex.lexema[0] = LEX_FUNCTION;
+            else if (word == "declare")  lex.lexema[0] = LEX_DECLARE;
+            else if (word == "return")   lex.lexema[0] = LEX_RETURN;
+            else if (word == "print")    lex.lexema[0] = LEX_PRINT;
+            else if (word == "main")     lex.lexema[0] = LEX_MAIN;
             else {
-                // это идентификатор
                 lex.lexema[0] = LEX_ID;
 
                 IT::Entry idEntry{};
                 strncpy_s(idEntry.id, word.c_str(), ID_MAXSIZE - 1);
                 idEntry.id[ID_MAXSIZE - 1] = '\0';
-                idEntry.iddatatype = IT::INT; // по умолчанию
-                idEntry.idtype = IT::V;       // переменная
+                idEntry.iddatatype = IT::INT;
+                idEntry.idtype = IT::V;
                 idEntry.idxfirstLE = lt.size;
 
                 IT::Add(it, idEntry);
@@ -72,13 +74,18 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             }
         }
 
-        // --- число ---
+        // числа (целые литералы)
         else if (isdigit((unsigned char)c)) {
             std::string num;
             while (i < source.size() && isdigit((unsigned char)source[i])) {
                 num += source[i++];
+                column++;
             }
             lex.lexema[0] = LEX_LITERAL;
+
+            if (TI_INT_MAXSIZE < stoi(num)) {
+                throw ERROR_THROW_IN(ERROR_WRONG_NUMBER, line, column);
+            }
 
             IT::Entry lit{};
             strncpy_s(lit.id, num.c_str(), ID_MAXSIZE - 1);
@@ -90,14 +97,23 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             lex.idxTI = it.size - 1;
         }
 
-        // --- строковый литерал ---
+        // строковые литералы
         else if (c == '\'') {
-            i++; // пропускаем '
+            i++;
+            column++;
             std::string str;
             while (i < source.size() && source[i] != '\'') {
                 str += source[i++];
+                column++;
             }
-            if (i < source.size() && source[i] == '\'') i++; // закрывающая '
+            if (i < source.size() && source[i] == '\'') {
+                i++;
+                column++;
+            }
+
+            if (str.length() > TI_STR_MAXSIZE) {
+                throw ERROR_THROW(ERROR_STR_TOOLONG);
+            }
 
             lex.lexema[0] = LEX_LITERAL;
 
@@ -113,7 +129,7 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             lex.idxTI = it.size - 1;
         }
 
-        // --- одиночные символы (операторы и разделители) ---
+        // одиночные символы (операторы и разделители)
         else {
             switch (c) {
             case '=': lex.lexema[0] = '='; break;
@@ -128,15 +144,17 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             case '(': lex.lexema[0] = '('; break;
             case ')': lex.lexema[0] = ')'; break;
             default:
-                throw ERROR_THROW_IN(111, line, (int)(i + 1));
+                throw ERROR_THROW_IN(103, line, column);
             }
             i++;
+            column++;
         }
 
-        // добавляем в таблицу лексем
+        // добавить запись в таблицу лексем
         LT::Add(lt, lex);
     }
 }
+
 
 
 
@@ -230,26 +248,35 @@ int _tmain(int argc, _TCHAR* argv[])
 
         Analyze(in, lexTable, idTable);
 
-        // вывод таблицы лексем
-        cout << "ТАБЛИЦА ЛЕКСЕМ:\n";
+        ofstream fout("protocol.txt", ios::app);
+
+        fout << "\nТАБЛИЦА ЛЕКСЕМ:\n";
+        cout << "\nТАБЛИЦА ЛЕКСЕМ:\n";
+
         int currentLine = -1;
         for (int i = 0; i < lexTable.size; i++) {
             LT::Entry e = LT::GetEntry(lexTable, i);
 
-            // если новая строка — начинаем с номера строки
             if (e.sn != currentLine) {
-                if (currentLine != -1) cout << "\n"; // перенос после предыдущей строки
-                cout << std::setw(2) << std::setfill('0') << e.sn << " ";
+                if (currentLine != -1) {
+                    fout << "\n";
+                    cout << "\n";
+                }
+                fout << setw(2) << setfill('0') << e.sn << " ";
+                cout << setw(2) << setfill('0') << e.sn << " ";
                 currentLine = e.sn;
             }
 
-            // выводим лексему
+            fout << e.lexema[0];
             cout << e.lexema[0];
         }
+
+        fout << "\n";
         cout << "\n";
 
+        fout.close();
 
-        // вывод таблицы идентификаторов
+
         cout << "\nТАБЛИЦА ИДЕНТИФИКАТОРОВ:\n";
         for (int i = 0; i < idTable.size; i++) {
             IT::Entry e = idTable.table[i];
@@ -258,18 +285,16 @@ int _tmain(int argc, _TCHAR* argv[])
                 << " firstLE=" << e.idxfirstLE << "\n";
         }
 
-        // очистка
         LT::Delete(lexTable);
         IT::Delete(idTable);
-        delete[] in.text; // освобождаем память
+        delete[] in.text;
     }
     catch (Error::ERROR e) {
-        cout << "Ошибка " << e.id << ": " << e.message
-            << " строка " << e.inext.line
-            << " позиция " << e.inext.col << endl;
+        cout << "Ошибка " << e.id << ": " << e.message << "Строка " << e.inext.line << " позиция " << e.inext.col << endl;
+
     }
     catch (std::exception& ex) {
-        cerr << "Ошибка: " << ex.what() << endl;
+        cerr << "Ошибка: " << ex.what() <<  endl;
     }
 
 
