@@ -1,11 +1,12 @@
 #pragma once
-#define ID_MAXSIZE 10000
-#define TI_MAXSIZE 10000
+#define ID_MAXSIZE 12000
+#define TI_MAXSIZE 12000
 #define TI_INT_DEFAULT 0x00000000
 #define TI_STR_DEFAULT 0x00
 #define TI_NULLIDX 0xffffffff
-#define TI_STR_MAXSIZE 3
-#define TI_INT_MAXSIZE INT_MAX
+#define TI_STR_MAXSIZE 2000
+#define MAX_STRING 300
+#define TI_INT_MAXSIZE 2147483646
 
 namespace IT {
     enum IDDATATYPE { INT = 1, STR = 2 };

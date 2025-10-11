@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|solutionrelative:Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\SE_Lab14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|solutionrelative:SE_Lab14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|solutionrelative:In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|solutionrelative:Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CAFA1C7-E62F-4418-BA44-9F6BFEE0E8C5}|SE_Lab14.vcxproj|C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,12 +78,11 @@
               "RelativeToolTip": "Out.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-02T20:22:05.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T20:22:05.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Out.cpp",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\Out.cpp",
               "RelativeDocumentMoniker": "Out.cpp",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Out.cpp",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwCAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-02T20:21:54.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T20:21:54.172Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "Parm.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-02T19:45:59.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T19:45:59.564Z"
             },
             {
               "$type": "Document",
@@ -117,12 +114,11 @@
               "RelativeToolTip": "Log.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-01T14:42:33.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:42:33.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Parm.cpp",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\Parm.cpp",
               "RelativeDocumentMoniker": "Parm.cpp",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "Parm.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-01T14:42:35.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:42:35.852Z"
             },
             {
               "$type": "Document",
@@ -143,12 +138,11 @@
               "RelativeToolTip": "stdafx.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-01T14:42:39.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:42:39.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Log.cpp",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\Log.cpp",
               "RelativeDocumentMoniker": "Log.cpp",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "Log.cpp",
               "ViewState": "AgIAADwAAAAAAAAAAAAxwEoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-01T14:42:14.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:42:14.507Z"
             },
             {
               "$type": "Document",
@@ -169,12 +162,11 @@
               "RelativeToolTip": "In.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAxwCIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-01T14:41:46.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:41:46.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "In.cpp",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\In.cpp",
               "RelativeDocumentMoniker": "In.cpp",
@@ -182,8 +174,7 @@
               "RelativeToolTip": "In.cpp",
               "ViewState": "AgIAACIAAAAAAAAAAAAxwDMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-01T14:41:41.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:41:41.26Z"
             },
             {
               "$type": "Document",
@@ -195,31 +186,30 @@
               "RelativeToolTip": "Error.h",
               "ViewState": "AgIAAAEAAAAAAAAAAAAxwBMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-01T14:41:38.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:41:38.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Error.cpp",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\Error.cpp",
               "RelativeDocumentMoniker": "Error.cpp",
               "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\Error.cpp",
               "RelativeToolTip": "Error.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAxwCoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-31T17:01:08.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SE_Lab14.cpp",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\SE_Lab14.cpp",
               "RelativeDocumentMoniker": "SE_Lab14.cpp",
               "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\KPO\\SE_Lab14\\SE_Lab14.cpp",
               "RelativeToolTip": "SE_Lab14.cpp",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAxwFcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAxwFcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-31T17:00:58.843Z",
               "EditorCaption": ""

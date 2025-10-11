@@ -85,7 +85,7 @@ int _tmain(int argc, _TCHAR* argv[])
         In::IN in = In::getin(parm.in);
         Out::WriteInOut(out, in);
     }
-    catch (Error::ERROR e)
+    catch (Error::ERROR e)  
     {
         Out::WriteErrorOut(out, e);
     };

@@ -19,13 +19,12 @@ using namespace std;
 
 void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
     std::string source(reinterpret_cast<char*>(in.text), in.size);
-    int line = 1;      // текущая строка
-    int column = 1;    // текущая позиция в строке
+    int line = 1;
+    int column = 1; 
 
     for (size_t i = 0; i < source.size(); ) {
         char c = source[i];
 
-        // обработка перехода на новую строку
         if (c == '\n') {
             line++;
             column = 1;
@@ -33,7 +32,6 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             continue;
         }
 
-        // обработка пробелов и табуляций
         if (isspace((unsigned char)c)) {
             i++;
             column++;
@@ -44,7 +42,6 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
         lex.sn = line;
         lex.idxTI = LT_TI_NULLIDX;
 
-        // идентификаторы и ключевые слова
         if (isalpha((unsigned char)c)) {
             std::string word;
             while (i < source.size() && (isalnum((unsigned char)source[i]) || source[i] == '_')) {
@@ -74,7 +71,6 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             }
         }
 
-        // числа (целые литералы)
         else if (isdigit((unsigned char)c)) {
             std::string num;
             while (i < source.size() && isdigit((unsigned char)source[i])) {
@@ -82,8 +78,10 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
                 column++;
             }
             lex.lexema[0] = LEX_LITERAL;
+            
+            long long t = stoll(num);
 
-            if (TI_INT_MAXSIZE < stoi(num)) {
+            if (t > TI_INT_MAXSIZE) {
                 throw ERROR_THROW_IN(ERROR_WRONG_NUMBER, line, column);
             }
 
@@ -91,13 +89,12 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             strncpy_s(lit.id, num.c_str(), ID_MAXSIZE - 1);
             lit.iddatatype = IT::INT;
             lit.idtype = IT::L;
-            lit.value.vint = std::stoi(num);
+            lit.value.vint = static_cast<int>(t);
             lit.idxfirstLE = lt.size;
             IT::Add(it, lit);
             lex.idxTI = it.size - 1;
         }
 
-        // строковые литералы
         else if (c == '\'') {
             i++;
             column++;
@@ -111,9 +108,9 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
                 column++;
             }
 
-            if (str.length() > TI_STR_MAXSIZE) {
-                throw ERROR_THROW(ERROR_STR_TOOLONG);
-            }
+                if (str.length() > MAX_STRING) {
+                    throw ERROR_THROW_IN(ERROR_STR_TOOLONG, line, column);
+                }
 
             lex.lexema[0] = LEX_LITERAL;
 
@@ -129,7 +126,6 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             lex.idxTI = it.size - 1;
         }
 
-        // одиночные символы (операторы и разделители)
         else {
             switch (c) {
             case '=': lex.lexema[0] = '='; break;
@@ -150,7 +146,6 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
             column++;
         }
 
-        // добавить запись в таблицу лексем
         LT::Add(lt, lex);
     }
 }
@@ -248,7 +243,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
         Analyze(in, lexTable, idTable);
 
-        ofstream fout("protocol.txt", ios::app);
+        ofstream fout("protocol.txt");
 
         fout << "\nТАБЛИЦА ЛЕКСЕМ:\n";
         cout << "\nТАБЛИЦА ЛЕКСЕМ:\n";
@@ -290,11 +285,8 @@ int _tmain(int argc, _TCHAR* argv[])
         delete[] in.text;
     }
     catch (Error::ERROR e) {
-        cout << "Ошибка " << e.id << ": " << e.message << "Строка " << e.inext.line << " позиция " << e.inext.col << endl;
+        cout << "Ошибка " << e.id << ": " << e.message << " Строка " << e.inext.line << " позиция " << e.inext.col << endl;
 
-    }
-    catch (std::exception& ex) {
-        cerr << "Ошибка: " << ex.what() <<  endl;
     }
 
 
