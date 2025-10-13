@@ -4,17 +4,28 @@
 using namespace std;
 
 #define MFST_DIAGN_NUMBER 3
-typedef stack<short> MFSTSTSTACK;
+#define MFST_DIAGN_MAXSIZE 2*ERROR_MAXSIZE_MESSAGE
+
+class MFSTSTSTACK :public stack<short> {
+public: using stack<short>::c;
+};
 
 namespace MFST
 {
 	struct MfstState
 	{
 		short lenta_position;
+		short nrule;
 		short nrulechain;
 		MFSTSTSTACK st;
 		MfstState();
 		MfstState(short pposition, MFSTSTSTACK pst, short pnrulechain);
+		MfstState(short pposition, short pnrule, short pnrulechain);
+	};
+
+	class MFSTSTATE :public stack<MfstState>
+	{
+		public: using stack<MfstState>::c;
 	};
 
 	struct Mfst

@@ -24,8 +24,13 @@ namespace Error
 		ERROR_ENTRY_NODEF10(160), ERROR_ENTRY_NODEF10(170), ERROR_ENTRY_NODEF10(180), ERROR_ENTRY_NODEF10(190),
 		ERROR_ENTRY(200, "Переполнение таблицы идентификаторов"), ERROR_ENTRY(201, "Переполнение таблицы лексем"),
 		ERROR_ENTRY(202, "Идентификатор не найден"), ERROR_ENTRY(203, "Лексема не найдена"), ERROR_ENTRY(204, "Число слишком большое"),  ERROR_ENTRY(205, "Строка слишком длинная"),
-		ERROR_ENTRY_NODEF100(300), ERROR_ENTRY_NODEF100(400), ERROR_ENTRY_NODEF100(500),
-		ERROR_ENTRY_NODEF100(600), ERROR_ENTRY_NODEF100(700), ERROR_ENTRY_NODEF100(800), ERROR_ENTRY_NODEF100(900)
+		ERROR_ENTRY_NODEF100(300), ERROR_ENTRY_NODEF100(390), ERROR_ENTRY_NODEF100(400), ERROR_ENTRY_NODEF100(490), ERROR_ENTRY_NODEF100(500), ERROR_ENTRY_NODEF100(590),
+		ERROR_ENTRY(600, "Неверная структура программы"),
+		ERROR_ENTRY(601, "Ошибочный оператор"),
+		ERROR_ENTRY(602, "Ошибка в выражении"),
+		ERROR_ENTRY(603, "Ошибка в параметрах фукнции"),
+		ERROR_ENTRY(604, "Ошибка в параметрах вызываемой функции"),
+		ERROR_ENTRY_NODEF100(700), ERROR_ENTRY_NODEF100(800), ERROR_ENTRY_NODEF100(900)
 	};
 
 	ERROR geterror(int id)

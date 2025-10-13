@@ -23,7 +23,7 @@ namespace GRB
 		}*chains;
 		Rule() { nn = 0x00; size = 0; }
 		Rule(GRBALPHABET pnn, int iderror, short psize, Chain c, ...);
-		char* getRule(char* b, short nchain);
+		char* getCRule(char* b, short nchain);
 		short getNextChain(GRBALPHABET t, Rule::Chain& pchain, short j);
 	};
 
@@ -38,5 +38,6 @@ namespace GRB
 		short getRule(GRBALPHABET pnn, Rule& prule);
 		Rule getRule(short n);
 	};
+	extern Greibach greibach;
 	Greibach getGreibach();
 };

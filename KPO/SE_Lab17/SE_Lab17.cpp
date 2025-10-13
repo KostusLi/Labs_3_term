@@ -49,8 +49,8 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
                 column++;
             }
 
-            if (word == "integer")       lex.lexema[0] = LEX_INTEGER;
-            else if (word == "string")   lex.lexema[0] = LEX_STRING;
+            if (word == "integer")       lex.lexema[0] = LEX_INTSTR;
+            else if (word == "string")   lex.lexema[0] = LEX_INTSTR;
             else if (word == "function") lex.lexema[0] = LEX_FUNCTION;
             else if (word == "declare")  lex.lexema[0] = LEX_DECLARE;
             else if (word == "return")   lex.lexema[0] = LEX_RETURN;
@@ -156,7 +156,6 @@ void Analyze(In::IN in, LT::LexTable& lt, IT::IdTable& it) {
 int _tmain(int argc, _TCHAR* argv[])
 {
     setlocale(LC_ALL, "russian");
-
 
     cout << "--------- тест geterror ---------\n\n";
     try { throw ERROR_THROW(100); }
@@ -279,6 +278,23 @@ int _tmain(int argc, _TCHAR* argv[])
                 << " type=" << (e.iddatatype == IT::INT ? "int" : "string")
                 << " firstLE=" << e.idxfirstLE << "\n";
         }
+
+        //здесь начал добавление
+
+        cout << "Входная лента: ";
+        for (int i = 0; i < lexTable.size; i++)
+            cout << lexTable.table[i].lexema[0];
+        cout << endl;
+
+
+        MFST_TRACE_START
+            MFST::Mfst mfst(lexTable, GRB::getGreibach());
+        mfst.start();
+        mfst.savededucation();
+        mfst.printrules();
+
+
+        //закончил
 
         LT::Delete(lexTable);
         IT::Delete(idTable);

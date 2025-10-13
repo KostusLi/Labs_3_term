@@ -5,7 +5,7 @@
 #include <string>
 #include <fstream>
 #include <cwchar>
-#include <TCHAR.H>z
+#include <TCHAR.H>
 #include <time.h>
 
 #include "Error.h"
@@ -13,3 +13,7 @@
 #include "Log.h"
 #include "In.h"
 #include "Out.h"
+#include "IT.h"
+#include "LT.h"
+#include "MFST.h"
+#include "GRB.h"

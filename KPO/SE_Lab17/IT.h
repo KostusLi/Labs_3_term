@@ -5,7 +5,7 @@
 #define TI_STR_DEFAULT 0x00
 #define TI_NULLIDX 0xffffffff
 #define TI_STR_MAXSIZE 2000
-#define MAX_STRING 300
+#define MAX_STRING 3000
 #define TI_INT_MAXSIZE 2147483646
 
 namespace IT {

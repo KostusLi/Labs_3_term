@@ -30,7 +30,7 @@ namespace Error
         char message[ERROR_MAXSIZE_MESSAGE];
         struct IN
         {
-            short line;
+            short line; 
             short col;
         } inext;
     };

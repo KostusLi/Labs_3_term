@@ -2,8 +2,7 @@
 #define LEXEMA_FIXSIZE 1
 #define LT_MAXSIZE 10000
 #define LT_TI_NULLIDX 0xffffffff
-#define LEX_INTEGER 't'
-#define LEX_STRING 't'
+#define LEX_INTSTR 't'
 #define LEX_ID 'i'
 #define LEX_LITERAL 'l'
 #define LEX_FUNCTION 'f'
