@@ -130,3 +130,28 @@ Hello??
 01.10.2025 18:08:36, INFO: Вывели списочек.
 01.10.2025 18:08:36, INFO: Вывели списочек.
 01.10.2025 18:08:36, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Attempted to divide by zero./   at Program.Main(String[] args) in C:\Из рабочего стола\Labs 3 sem\OOP\Lab#4\Program.cs:line 32.
+14.10.2025 12:41:39, INFO: 
+
+------Hello??------
+
+/   at Program.Main(String[] args) in C:\Из рабочего стола\Labs 3 sem\OOP\Lab#4\Program.cs:line 41.
+14.10.2025 12:41:39, INFO: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')/   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Program.Main(String[] args) in C:\Из рабочего стола\Labs 3 sem\OOP\Lab#4\Program.cs:line 58.
+14.10.2025 12:41:39, INFO: Название не должно быть больше 10 символов/   at Program.Main(String[] args) in C:\Из рабочего стола\Labs 3 sem\OOP\Lab#4\Program.cs:line 76.
+14.10.2025 12:41:39, INFO: Левая граница либо правая меньше 0!!!/   at Controller.searchCandy(Int32 leftBorder, Int32 rightBorder) in C:\Из рабочего стола\Labs 3 sem\OOP\Lab#4\Controller.cs:line 34.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:39, INFO: Вывели списочек.
+14.10.2025 12:41:40, INFO: Вывели списочек.
+14.10.2025 12:41:40, INFO: Вывели списочек.

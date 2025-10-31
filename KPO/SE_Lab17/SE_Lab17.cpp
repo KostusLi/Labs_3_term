@@ -279,7 +279,6 @@ int _tmain(int argc, _TCHAR* argv[])
                 << " firstLE=" << e.idxfirstLE << "\n";
         }
 
-        //здесь начал добавление
 
         cout << "Входная лента: ";
         for (int i = 0; i < lexTable.size; i++)
@@ -288,13 +287,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
         MFST_TRACE_START
-            MFST::Mfst mfst(lexTable, GRB::getGreibach());
+        MFST::Mfst mfst(lexTable, GRB::getGreibach());
         mfst.start();
         mfst.savededucation();
         mfst.printrules();
 
-
-        //закончил
 
         LT::Delete(lexTable);
         IT::Delete(idTable);

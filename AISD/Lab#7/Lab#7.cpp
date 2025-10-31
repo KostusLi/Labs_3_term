@@ -1,21 +1,21 @@
 ﻿#include <iostream>
 #include <vector>
-
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
-void print(vector<int> arr)
+void print(const vector<int>& arr)
 {
     for (int i : arr)
-    {
         cout << i << " ";
-    }
+    cout << endl;
 }
-
 
 int main()
 {
     setlocale(LC_ALL, "ru");
     srand(time(NULL));
+
     int N;
     cout << "Введите кол-во элементов последовательности: ";
     cin >> N;
@@ -23,37 +23,48 @@ int main()
     vector<int> nums(N);
 
     for (int i = 0; i < N; i++)
-    {
         nums[i] = rand() % 100;
-    }
 
+    cout << "Исходная последовательность:\n";
     print(nums);
 
-    int k = 0;
-    vector<int> res;
+    vector<int> dp(N, 1);
 
-    while (k!=N)
+    vector<int> prev(N, -1);
+
+    for (int i = 1; i < N; i++)
     {
-        vector<int> temp;
-        int prev = -1;
-        for (int i=k; i<N; i++)
+        for (int j = 0; j < i; j++)
         {
-            if (nums[i] > prev)
+            if (nums[i] > nums[j] && dp[i] < dp[j] + 1)
             {
-                temp.push_back(nums[i]);
-                prev = nums[i];
+                dp[i] = dp[j] + 1;
+                prev[i] = j;
             }
         }
-
-        if (temp.size() > res.size())
-        {
-            res = temp;
-        }
-        k++;
     }
 
+    int maxLen = dp[0];
+    int maxIndex = 0;
+    for (int i = 1; i < N; i++)
+    {
+        if (dp[i] > maxLen)
+        {
+            maxLen = dp[i];
+            maxIndex = i;
+        }
+    }
+
+    vector<int> res;
+    for (int i = maxIndex; i != -1; i = prev[i])
+        res.push_back(nums[i]);
+
+    reverse(res.begin(), res.end());
+
     cout << "\nМаксимальная возрастающая подпоследовательность:\n";
-    cout << "Длина нашей последовательности: " << res.size() << endl;
+    cout << "Длина: " << maxLen << endl;
     print(res);
 
+
+    return 0;
 }

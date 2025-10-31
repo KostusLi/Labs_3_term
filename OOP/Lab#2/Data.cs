@@ -2,11 +2,11 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-class Data
+public class Data
 {
-    private int day;
-    private int month { get; set; }
-    private int year { get; }
+    public int day;
+    public int month { get; set; }
+    public int year { get; }
     public int number = 0;
     private readonly Guid ID;
     static private string[] arrOfStr;
@@ -111,6 +111,11 @@ class Data
         count++;
     }
 
+    public DateTime ToDateTime()
+    {
+        return new DateTime(this.year, this.month, this.day);
+    }
+
     public Guid calculateHash()
     {
         string key = $"{day}{month}{year}";
@@ -163,8 +168,8 @@ class Data
 
     public override string ToString()
     {
-        string daystr = (day > 10 ? day.ToString() : "0" + day);
-        string monthstr = (month > 10 ? month.ToString() : "0" + month);
+        string daystr = (day >= 10 ? day.ToString() : "0" + day);
+        string monthstr = (month >= 10 ? month.ToString() : "0" + month);
         return $"{daystr}/{monthstr}/{year}";
     }
 

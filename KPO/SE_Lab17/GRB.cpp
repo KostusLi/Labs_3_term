@@ -145,15 +145,13 @@ namespace GRB {
 
 	Greibach greibach(NS('S'), TS('$'),
 		{
-			// --- Начало программы ---
 			Rule(NS('S'), GRB_ERROR_SERIES + 0,
 				3,
 				Rule::Chain(8, TS('m'), TS('{'), NS('N'), TS('r'), NS('E'), TS(';'), TS('}'), TS(';')),
-				Rule::Chain(14, TS('t'), TS('i'), TS('f'), TS('('), NS('F'), TS(')'), TS('{'), NS('N'), TS('r'), NS('E'), TS(';'), TS('}')),
+				Rule::Chain(14, TS('t'), TS('f'), TS('i'), TS('('), NS('F'), TS(')'), TS('{'), NS('N'), TS('r'), NS('E'), TS(';'), TS('}')),
 				Rule::Chain(9, TS('m'), TS('{'), NS('N'), TS('r'), NS('E'), TS(';'), TS('}'), TS(';'), NS('S'))
 			),
 
-				// --- Операторы ---
 				Rule(NS('N'), GRB_ERROR_SERIES + 1,
 					17,
 					Rule::Chain(4, TS('d'), TS('t'), TS('i'), TS(';')),
@@ -175,7 +173,6 @@ namespace GRB {
 					Rule::Chain(6, TS('p'), TS('i'), TS('('), NS('F'), TS(')'), TS(';'))
 				),
 
-				// --- Выражения ---
 				Rule(NS('E'), GRB_ERROR_SERIES + 2,
 					10,
 					Rule::Chain(1, TS('i')),
@@ -190,7 +187,6 @@ namespace GRB {
 					Rule::Chain(5, TS('i'), TS('('), NS('F'), TS(')'), TS(';'))
 				),
 
-				// --- Параметры функции (описание при объявлении функции) ---
 				Rule(NS('F'), GRB_ERROR_SERIES + 3,
 					4,
 					Rule::Chain(4, TS('t'), TS('i'), TS(','), NS('F')),
@@ -199,21 +195,19 @@ namespace GRB {
 					Rule::Chain(1, TS('i'))
 				),
 
-				// --- Аргументы функции (при вызове функции) ---
 				Rule(NS('W'), GRB_ERROR_SERIES + 4,
 					3,
-					Rule::Chain(1, NS('E')),                      // одно выражение
-					Rule::Chain(3, NS('E'), TS(','), NS('W')),    // несколько аргументов: E, W
-					Rule::Chain(1, TS(')'))                       // пустой список аргументов (вызов без параметров)
+					Rule::Chain(1, NS('E')),                      
+					Rule::Chain(3, NS('E'), TS(','), NS('W')),    
+					Rule::Chain(1, TS(')'))                       
 				),
 
-				// --- Продолжение выражения (операторы +, -, *, /) ---
 				Rule(NS('M'), GRB_ERROR_SERIES + 2,
 					4,
-					Rule::Chain(2, TS('+'), NS('E')),             // +E
-					Rule::Chain(2, TS('-'), NS('E')),             // -E
-					Rule::Chain(2, TS('*'), NS('E')),             // *E
-					Rule::Chain(2, TS('/'), NS('E'))             // /E
+					Rule::Chain(2, TS('+'), NS('E')),             
+					Rule::Chain(2, TS('-'), NS('E')),            
+					Rule::Chain(2, TS('*'), NS('E')),            
+					Rule::Chain(2, TS('/'), NS('E'))            
 				)
 		});
 

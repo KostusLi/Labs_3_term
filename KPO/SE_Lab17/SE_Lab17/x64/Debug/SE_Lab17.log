@@ -1,10 +1,11 @@
-﻿Build started 14.10.2025 1:21:49.
+﻿Build started 14.10.2025 15:50:57.
 Logging verbosity is set to: Normal.     1>Project "C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab17\SE_Lab17.vcxproj" on node 2 (Rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "SE_Lab17\x64\Debug\SE_Lab17.tlog\SE_Lab17.lastbuildstate".
        PrepareForBuild:
          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
        InitializeBuildStatus:
+         Creating "SE_Lab17\x64\Debug\SE_Lab17.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
          Touching "SE_Lab17\x64\Debug\SE_Lab17.tlog\unsuccessfulbuild".
        ClCompile:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"SE_Lab17\x64\Debug\\" /Fd"SE_Lab17\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp GRB.cpp In.cpp IT.cpp Log.cpp LT.cpp MFST.cpp Out.cpp Parm.cpp SE_Lab17.cpp
@@ -15,7 +16,7 @@ Logging verbosity is set to: Normal.     1>Project "C:\Из рабочего с�
          Log.cpp
          LT.cpp
          MFST.cpp
-     1>C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab17\MFST.cpp(303,72): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+     1>C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab17\MFST.cpp(324,72): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
          Out.cpp
          Parm.cpp
          SE_Lab17.cpp
@@ -41,9 +42,9 @@ Build succeeded.
 
        "C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab17\SE_Lab17.vcxproj" (Rebuild target) (1) ->
        (ClCompile target) -> 
-         C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab17\MFST.cpp(303,72): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+         C:\Из рабочего стола\Labs 3 sem\KPO\SE_Lab17\MFST.cpp(324,72): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
 
     1 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:08.87
+Time Elapsed 00:00:09.08

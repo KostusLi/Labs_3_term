@@ -25,22 +25,24 @@ namespace Error
 		ERROR_ENTRY(200, "Переполнение таблицы идентификаторов"), ERROR_ENTRY(201, "Переполнение таблицы лексем"),
 		ERROR_ENTRY(202, "Идентификатор не найден"), ERROR_ENTRY(203, "Лексема не найдена"), ERROR_ENTRY(204, "Число слишком большое"),  ERROR_ENTRY(205, "Строка слишком длинная"),
 		ERROR_ENTRY_NODEF100(300), ERROR_ENTRY_NODEF100(390), ERROR_ENTRY_NODEF100(400), ERROR_ENTRY_NODEF100(490), ERROR_ENTRY_NODEF100(500), ERROR_ENTRY_NODEF100(590),
-		ERROR_ENTRY(600, "Неверная структура программы"),
-		ERROR_ENTRY(601, "Ошибочный оператор"),
-		ERROR_ENTRY(602, "Ошибка в выражении"),
-		ERROR_ENTRY(603, "Ошибка в параметрах фукнции"),
-		ERROR_ENTRY(604, "Ошибка в параметрах вызываемой функции"),
+		ERROR_ENTRY(600, "Неверная структура программы"), ERROR_ENTRY(601, "Ошибочный оператор"), ERROR_ENTRY(602, "Ошибка в выражении"),
+		ERROR_ENTRY(603, "Ошибка в параметрах фукнции"), ERROR_ENTRY(604, "Ошибка в параметрах вызываемой функции"),
+		ERROR_ENTRY_NODEF(605), ERROR_ENTRY_NODEF(606), ERROR_ENTRY_NODEF(607), ERROR_ENTRY_NODEF(608), ERROR_ENTRY_NODEF(609),
+		ERROR_ENTRY_NODEF10(610), ERROR_ENTRY_NODEF10(620), ERROR_ENTRY_NODEF10(630), ERROR_ENTRY_NODEF10(640),
+		ERROR_ENTRY_NODEF10(650), ERROR_ENTRY_NODEF10(660), ERROR_ENTRY_NODEF10(670), ERROR_ENTRY_NODEF10(680),
 		ERROR_ENTRY_NODEF100(700), ERROR_ENTRY_NODEF100(800), ERROR_ENTRY_NODEF100(900)
 	};
 
 	ERROR geterror(int id)
 	{
-		ERROR check;
-		if ((id < 0) || (id > ERROR_MAX_ENTRY)) {
-			check = errors[0];
-		}
-		else {
-			check = errors[id];
+		Error::ERROR check = errors[0]; // дефолт
+		if (id < 0) return check;
+
+		for (int i = 0; i < ERROR_MAX_ENTRY; ++i) {
+			if (errors[i].id == id) {
+				check = errors[i];
+				break;
+			}
 		}
 		return check;
 	}

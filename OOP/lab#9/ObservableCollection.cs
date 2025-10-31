@@ -41,9 +41,9 @@ namespace lab_9
             return this.queue.Peek();
         }
 
-        private void DefaultEventHandler(string messsage)
+        private void DefaultEventHandler(string message)
         {
-            Console.WriteLine(messsage);
+            Console.WriteLine(message);
         }
 
     }

@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A6328974-E247-4764-8D10-8F650AB761C6}|Lab#8.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6328974-E247-4764-8D10-8F650AB761C6}|Lab#8.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#8\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6328974-E247-4764-8D10-8F650AB761C6}|Lab#8.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6328974-E247-4764-8D10-8F650AB761C6}|Lab#8.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#8\\stringworking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6328974-E247-4764-8D10-8F650AB761C6}|Lab#8.csproj|solutionrelative:stringworking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6328974-E247-4764-8D10-8F650AB761C6}|Lab#8.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#8\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6328974-E247-4764-8D10-8F650AB761C6}|Lab#8.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StringWorking.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#8\\StringWorking.cs",
               "RelativeDocumentMoniker": "StringWorking.cs",
               "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#8\\StringWorking.cs",
               "RelativeToolTip": "StringWorking.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T16:01:03.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#8\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
               "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#8\\User.cs",
               "RelativeToolTip": "User.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywB4AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T12:44:13.012Z",
               "EditorCaption": ""
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#8\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA0wBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T11:53:47.112Z",
               "EditorCaption": ""

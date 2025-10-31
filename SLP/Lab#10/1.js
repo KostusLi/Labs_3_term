@@ -83,9 +83,7 @@ console.log("======================")
 
 
 //9
-
-const arr = [1, 2, 3, 4];
-
-arr.forEach(s => {
-    console.log(s);
+[1, 2, 3, 4].reduce((x, y)=>{
+    console.log(x, y);
+    return x;
 });

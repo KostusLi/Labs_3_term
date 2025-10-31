@@ -5,11 +5,9 @@ internal class User
     public int x;
     public int y;
 
-    // Делегаты событий
     public delegate void Move(string message);
     public delegate void Press(string message);
 
-    // События
     public event Move? Notify1;
     public event Press? Notify2;
 

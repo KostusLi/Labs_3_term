@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,44 +98,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "logger.txt",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\logger.txt",
-              "RelativeDocumentMoniker": "logger.txt",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\logger.txt",
-              "RelativeToolTip": "logger.txt",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-30T18:39:36.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileLogger.cs",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\FileLogger.cs",
-              "RelativeDocumentMoniker": "FileLogger.cs",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\FileLogger.cs",
-              "RelativeToolTip": "FileLogger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T18:17:55.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CheckListException.cs",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\CheckListException.cs",
-              "RelativeDocumentMoniker": "CheckListException.cs",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\CheckListException.cs",
-              "RelativeToolTip": "CheckListException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:50:33.334Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "OutRangeException.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\OutRangeException.cs",
@@ -144,8 +106,7 @@
               "RelativeToolTip": "OutRangeException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:43:17.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T15:43:17.3Z"
             },
             {
               "$type": "Document",
@@ -181,8 +142,7 @@
               "RelativeToolTip": "file1.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-22T18:52:25.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T18:52:25.438Z"
             },
             {
               "$type": "Document",
@@ -194,8 +154,7 @@
               "RelativeToolTip": "file.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-22T14:34:12.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T14:34:12.794Z"
             },
             {
               "$type": "Document",
@@ -207,8 +166,7 @@
               "RelativeToolTip": "Controller.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAYwCEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T12:45:43.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T12:45:43.95Z"
             },
             {
               "$type": "Document",
@@ -261,6 +219,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CheckListException.cs",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\CheckListException.cs",
+              "RelativeDocumentMoniker": "CheckListException.cs",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\CheckListException.cs",
+              "RelativeToolTip": "CheckListException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T15:50:33.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\FileLogger.cs",
+              "RelativeDocumentMoniker": "FileLogger.cs",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\FileLogger.cs",
+              "RelativeToolTip": "FileLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T18:17:55.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "logger.txt",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\logger.txt",
+              "RelativeDocumentMoniker": "logger.txt",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\logger.txt",
+              "RelativeToolTip": "logger.txt",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-30T18:39:36.051Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BoxOfCandy.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\BoxOfCandy.cs",
@@ -269,8 +263,7 @@
               "RelativeToolTip": "BoxOfCandy.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAIwB4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:00:48.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T10:00:48.171Z"
             },
             {
               "$type": "Document",
@@ -330,8 +323,7 @@
               "RelativeToolTip": "\u0421onfectionery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T09:08:37.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T09:08:37.278Z"
             }
           ]
         }

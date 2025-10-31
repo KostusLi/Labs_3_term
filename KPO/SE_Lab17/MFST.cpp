@@ -36,10 +36,9 @@ namespace MFST
         lenta_position = pposition;
         st = pst;
         nrule = pnrule;
-        nrulechain = pnrulechain;   // ✅ исправлено
+        nrulechain = pnrulechain;  
     }
 
-    // --------------------------- MfstDiagnosis ---------------------------
 
     Mfst::MfstDiagnosis::MfstDiagnosis()
     {
@@ -57,7 +56,6 @@ namespace MFST
         nrule_chain = pnrule_chain;
     }
 
-    // --------------------------- Mfst ---------------------------
 
     Mfst::Mfst()
     {
@@ -249,7 +247,7 @@ namespace MFST
         int sz = (int)st.size();
         for (int k = 0; k < sz; ++k)
         {
-            short p = st.c[sz - 1 - k];    // выводим от верхушки вниз
+            short p = st.c[sz - 1 - k];    
             buf[k] = GRB::Rule::Chain::alphabet_to_char(p);
         }
         buf[sz] = '\0';
@@ -271,17 +269,36 @@ namespace MFST
 
     char* Mfst::getDiagnosis(short n, char* buf)
     {
-        char* rc = const_cast<char*>("");
-        int errid = 0;
-        int lpos = -1;
-        if (n < MFST_DIAGN_NUMBER && (lpos = diagnosis[n].lenta_position) >= 0)
-        {
-            errid = grebach.getRule(diagnosis[n].nrule).iderror;
-            Error::ERROR err = Error::geterror(errid);
-            sprintf_s(buf, MFST_DIAGN_MAXSIZE, "%d: строка %d, %s", err.id, lex.table[lpos].sn, err.message);
-            rc = buf;
-        }
+        char* rc = const_cast<char*>(""); 
+    if (n >= MFST_DIAGN_NUMBER || diagnosis[n].lenta_position < 0)
         return rc;
+
+    int lpos = diagnosis[n].lenta_position;
+    int errid = 600; 
+
+    if (diagnosis[n].nrule >= 0 && diagnosis[n].nrule < grebach.size)
+    {
+        GRB::Rule rule = grebach.getRule(diagnosis[n].nrule);
+        errid = rule.iderror;
+    }
+    else
+    {
+        if (!st.empty())
+        {
+            short sym = st.top();
+            if (sym == NS('S')) errid = 600; 
+            else if (sym == NS('N')) errid = 601; 
+            else if (sym == NS('E') || sym == NS('M')) errid = 602; 
+            else if (sym == NS('F')) errid = 603; 
+            else if (sym == NS('W')) errid = 604; 
+        }
+    }
+
+    Error::ERROR err = Error::geterror(errid);
+    sprintf_s(buf, MFST_DIAGN_MAXSIZE, "%d: строка %d, %s",
+              err.id, lex.table[lpos].sn, err.message);
+    rc = buf;
+    return rc;
     };
 
     void  Mfst::printrules()

@@ -1,0 +1,82 @@
+﻿body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#board{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+
+tr:nth-child(3n) td {
+    border-bottom: 3px solid black;
+}
+
+tr:nth-child(1) td {
+    border-top: 3px solid black;
+}
+
+td:nth-child(3n) {
+    border-right: 3px solid black;
+}
+
+td:nth-child(1) {
+    border-left: 3px solid black;
+}
+
+#buttons{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+#generate, #checkError, #generateValid, #generatePart{
+    border-radius: 5px;
+    background-color: rgb(0, 37, 147);
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border:3px solid rgb(0, 37, 147);    
+}
+
+#generate:active, #checkError:active, #generateValid:active, #generatePart:active{
+    background-color: rgb(1, 23, 87);
+}
+
+#generate:hover, #checkError:hover, #generateValid:hover, #generatePart:hover{
+    transform: scale(1.1);
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+.highlight {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.fixed-cell {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    cursor: not-allowed;
+}

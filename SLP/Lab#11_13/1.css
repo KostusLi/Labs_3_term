@@ -1,0 +1,138 @@
+﻿
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    text-align: center;
+    color: rgb(3, 213, 10);
+    font-size: 60px;
+}
+
+.field_of_enter{
+    display:flex;
+    justify-content: center;
+    height:50px;
+}
+
+.enter{
+    width: 600px;
+    margin-right: 8px;
+    border: 2px, solid, gray;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.enter::placeholder
+{
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+
+.add_task
+{
+    color: white;
+    background-color: rgb(3, 213, 10);
+    font-family: sans-serif;
+    width: 100px;
+    font-size: 17px;
+    border: 2px, solid, rgb(3, 213, 10);
+    border-radius: 8px;
+}
+
+.add_task:hover{
+    background-color: rgb(4, 175, 10);
+    border-color: rgb(4, 175, 10);
+}
+
+.button_show{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap:10px;
+    height: 50px;
+}
+
+.show_all, .show_complete, .show_incomplete{
+    font-family: sans-serif;
+    font-size: 17px;
+    border-radius: 8px;
+    background-color: rgb(3, 213, 10);
+    border: 2px, solid, rgb(3, 213, 10);
+    color: white;
+    width: fit-content;
+}
+
+.show_all:hover, .show_complete:hover, .show_incomplete:hover{
+    background-color: rgb(4, 175, 10);
+    border-color: rgb(4, 175, 10);
+}
+
+.task-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    padding: 10px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    height: 40px;
+}
+
+.task-item:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.add_task, .show_all, .show_complete, .show_incomplete {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.enter:focus {
+    outline: none;
+    border-color: rgb(3, 213, 10);
+    box-shadow: 0 0 5px rgba(3, 213, 10, 0.3);
+}
+
+.task-item input[type="checkbox"] {
+    appearance: none;
+
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.task-item input[type="checkbox"]:hover {
+    border-color: #007bff;
+}
+
+.task-item input[type="checkbox"]:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.task-item input[type="checkbox"]:checked::after {
+    content: "✓";
+    position: absolute;
+    left: 2px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
