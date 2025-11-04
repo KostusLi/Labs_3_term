@@ -7,40 +7,40 @@ using System.Reflection;
 
 static class Reflector
 {
-    static string getAssembly(Type type)
+    public static string getAssembly(Type type)
     {
         Assembly assembly = type.Assembly;
         return assembly.FullName;
     }
 
-    static bool getConstructors(Type type) { return type.GetConstructors().Length>0; }
-    static IEnumerable<string> getMethods(Type type)
+    public static bool getConstructors(Type type) { return type.GetConstructors().Length>0; }
+    public static IEnumerable<string> getMethods(Type type)
     {
         return type.GetMethods().Select(p=>p.Name);
     }
 
-    static IEnumerable<string> getPropertiesFields(Type type) { 
+    public static IEnumerable<string> getPropertiesFields(Type type) { 
         var fields = type.GetFields().Select(p=>p.Name);
         var properties = type.GetProperties().Select(p=>p.Name);
         return fields.Concat(properties);
     }
 
-    static IEnumerable<string> getInterfaces(Type type)
+    public static IEnumerable<string> getInterfaces(Type type)
     {
        return type.GetInterfaces().Select(p => p.Name);
     }
 
-    static IEnumerable<string> getParamFromType(Type type, Type param_type)
+    public static IEnumerable<string> getParamFromType(Type type, Type param_type)
     {
         return type.GetMethods().Where(m=>m.GetParameters().Any(p=>p.ParameterType==param_type)).Select(m=>m.Name);
     }
 
-    static void writeInFile(IEnumerable<string> ienum)
+    public static void writeInFile(IEnumerable<string> ienum)
     {
         File.AppendAllLines(@"C:\Из рабочего стола\Labs 3 sem\OOP\Lab#11\info.txt", ienum);
     }
 
-    static void InvokeFromFile(Type type, string methodName, string filePath)
+    public static void InvokeFromFile(Type type, string methodName, string filePath)
     {
         MethodInfo method = type.GetMethod(methodName);
 
@@ -57,7 +57,7 @@ static class Reflector
         method.Invoke(type, args);
     }
 
-    static T Create<T>()
+    public static T Create<T>()
     {
 
         Type type = typeof(T);
