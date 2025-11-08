@@ -8,4 +8,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Lab#4">
+      <HintPath>..\Lab#4\bin\Debug\net8.0\Lab#4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="protobuf-net" Version="3.2.56" />
+  </ItemGroup>
+
 </Project>

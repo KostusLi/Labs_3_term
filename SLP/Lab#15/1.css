@@ -1,0 +1,90 @@
+﻿body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+form{
+    border: 2px solid black;
+    width: 600px;
+    margin: auto;
+}
+
+table, h3{
+    margin-left: 10px;
+}
+
+input, textarea{
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(195, 194, 194);
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: rgb(226, 226, 226);
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgb(195, 194, 194);
+    border-radius: 3px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+    position: relative;
+}
+
+input[type="checkbox"]:checked::before {
+    content: "✓";
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: rgb(226, 226, 226);
+    width: 12px;
+    height: 10px;
+    border: 1px solid rgb(195, 194, 194);
+    border-radius: 10px;
+}
+
+input[type="radio"]:checked {
+    background-color: #666;
+}
+
+input[type="radio"]:checked::before {
+    content: "";
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+table tr td{
+    padding-top: 10px;
+}
+
+table{
+    margin-bottom: 10px;
+}
+
+input[type="submit"]
+{
+    width: 120px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border: 5px dashed black;
+}

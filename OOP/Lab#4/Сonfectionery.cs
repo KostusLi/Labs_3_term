@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Net;
+using ProtoBuf;
 
-
+[Serializable]
+[ProtoContract]
+[ProtoInclude(100, typeof(Candy))]
 public abstract class Confectionery
 {
 
-    public string Name { get; set; }
-    public int percentOfSugar { get; set; }
-    public int weight {  get; set; }
+    [ProtoMember(1)]public string Name { get; set; }
+    [NonSerialized]
+    [ProtoIgnore]
+    public int percentOfSugar;
+    [ProtoMember(2)] public int weight {  get; set; }
 
     public Confectionery(string name, int percentOfSugar, int weight)
     {
@@ -15,6 +20,8 @@ public abstract class Confectionery
         this.percentOfSugar = percentOfSugar;
         this.weight = weight;
     }
+
+    protected Confectionery() { }
 
     public override string ToString()
     {

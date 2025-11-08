@@ -1,0 +1,7 @@
+{
+  "books": [
+    { "id": "b1", "title": "CLR via C#", "author": "Jeffrey Richter", "price": 45 },
+    { "id": "b2", "title": "Pro C#", "author": "Andrew Troelsen", "price": 50 },
+    { "id": "b3", "title": "C# in Depth", "author": "Jon Skeet", "price": 60 }
+  ]
+}

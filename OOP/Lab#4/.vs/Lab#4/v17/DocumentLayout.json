@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\candy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:candy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\\u0441onfectionery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:\u0441onfectionery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\logger.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:logger.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\checklistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:checklistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\outrangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:outrangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\logger.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:logger.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\outrangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:outrangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\file.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -35,20 +47,8 @@
       "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:boxofcandy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\\u0441onfectionery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:\u0441onfectionery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\candy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:candy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\chocolatecandy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:chocolatecandy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\checklistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|solutionrelative:checklistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD7AD332-7769-4D17-ADA1-16DCEC082FB0}|Lab#4.csproj|c:\\\u0438\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\labs 3 sem\\oop\\lab#4\\boxofcandyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,43 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OutRangeException.cs",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\OutRangeException.cs",
-              "RelativeDocumentMoniker": "OutRangeException.cs",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\OutRangeException.cs",
-              "RelativeToolTip": "OutRangeException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:43:17.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Lab#4.csproj",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Lab#4.csproj",
-              "RelativeDocumentMoniker": "Lab#4.csproj",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Lab#4.csproj",
-              "RelativeToolTip": "Lab#4.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-25T15:37:35.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BoxOfCandyException.cs",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\BoxOfCandyException.cs",
-              "RelativeDocumentMoniker": "BoxOfCandyException.cs",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\BoxOfCandyException.cs",
-              "RelativeToolTip": "BoxOfCandyException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:29:55.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "file1.json",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\file1.json",
               "RelativeDocumentMoniker": "file1.json",
@@ -146,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "file.txt",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\file.txt",
               "RelativeDocumentMoniker": "file.txt",
@@ -158,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Controller.cs",
               "RelativeDocumentMoniker": "Controller.cs",
@@ -206,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -214,12 +178,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAywFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:22:16.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T10:22:16.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "CheckListException.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\CheckListException.cs",
               "RelativeDocumentMoniker": "CheckListException.cs",
@@ -231,7 +194,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "logger.txt",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\logger.txt",
+              "RelativeDocumentMoniker": "logger.txt",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\logger.txt",
+              "RelativeToolTip": "logger.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-30T18:39:36.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Candy.cs",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Candy.cs",
+              "RelativeDocumentMoniker": "Candy.cs",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Candy.cs",
+              "RelativeToolTip": "Candy.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:58:40.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "\u0421onfectionery.cs",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\\u0421onfectionery.cs",
+              "RelativeDocumentMoniker": "\u0421onfectionery.cs",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\\u0421onfectionery.cs",
+              "RelativeToolTip": "\u0421onfectionery.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:08:37.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OutRangeException.cs",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\OutRangeException.cs",
+              "RelativeDocumentMoniker": "OutRangeException.cs",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\OutRangeException.cs",
+              "RelativeToolTip": "OutRangeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T15:43:17.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BoxOfCandyException.cs",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\BoxOfCandyException.cs",
+              "RelativeDocumentMoniker": "BoxOfCandyException.cs",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\BoxOfCandyException.cs",
+              "RelativeToolTip": "BoxOfCandyException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T15:29:55.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Lab#4.csproj",
+              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Lab#4.csproj",
+              "RelativeDocumentMoniker": "Lab#4.csproj",
+              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Lab#4.csproj",
+              "RelativeToolTip": "Lab#4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-25T15:37:35.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FileLogger.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\FileLogger.cs",
               "RelativeDocumentMoniker": "FileLogger.cs",
@@ -243,19 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "logger.txt",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\logger.txt",
-              "RelativeDocumentMoniker": "logger.txt",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\logger.txt",
-              "RelativeToolTip": "logger.txt",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-30T18:39:36.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "BoxOfCandy.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\BoxOfCandy.cs",
               "RelativeDocumentMoniker": "BoxOfCandy.cs",
@@ -267,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ChocolateCandy.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\ChocolateCandy.cs",
               "RelativeDocumentMoniker": "ChocolateCandy.cs",
@@ -291,18 +316,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Candy.cs",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Candy.cs",
-              "RelativeDocumentMoniker": "Candy.cs",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Candy.cs",
-              "RelativeToolTip": "Candy.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T09:58:40.269Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 16,
               "Title": "Cookies.cs",
               "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\Cookies.cs",
@@ -312,18 +325,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T09:55:37.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "\u0421onfectionery.cs",
-              "DocumentMoniker": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\\u0421onfectionery.cs",
-              "RelativeDocumentMoniker": "\u0421onfectionery.cs",
-              "ToolTip": "C:\\\u0418\u0437 \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E \u0441\u0442\u043E\u043B\u0430\\Labs 3 sem\\OOP\\Lab#4\\\u0421onfectionery.cs",
-              "RelativeToolTip": "\u0421onfectionery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T09:08:37.278Z"
             }
           ]
         }

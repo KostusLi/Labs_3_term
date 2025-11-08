@@ -1,0 +1,79 @@
+Even thread: 0
+Even thread: 0
+Odd thread: 1
+Even thread: 2
+Odd thread: 3
+Even thread: 4
+Odd thread: 5
+Even thread: 6
+Odd thread: 7
+Even thread: 8
+Odd thread: 9
+Even thread: 10
+Even thread: 0
+Even thread: 0
+Even thread: 2
+Even thread: 4
+Even thread: 6
+Even thread: 8
+Even thread: 10
+Odd thread: 1
+Odd thread: 3
+Odd thread: 5
+Odd thread: 7
+Odd thread: 9
+Even thread: 0
+Odd thread: 1
+Even thread: 2
+Odd thread: 3
+Even thread: 4
+Odd thread: 5
+Even thread: 6
+Odd thread: 7
+Even thread: 8
+Odd thread: 9
+Even thread: 10
+Even thread(case 1): 0
+Even thread(case 1): 2
+Even thread(case 1): 4
+Even thread(case 1): 6
+Even thread(case 1): 8
+Even thread(case 1): 10
+Odd thread(case 1): 1
+Odd thread(case 1): 3
+Odd thread(case 1): 5
+Odd thread(case 1): 7
+Odd thread(case 1): 9
+Even thread(case 1): 0
+Even thread(case 1): 2
+Even thread(case 1): 4
+Even thread(case 1): 6
+Even thread(case 1): 8
+Even thread(case 1): 10
+Odd thread(case 1): 1
+Odd thread(case 1): 3
+Odd thread(case 1): 5
+Odd thread(case 1): 7
+Odd thread(case 1): 9
+Even thread(case 1): 0
+Even thread(case 1): 2
+Even thread(case 1): 4
+Even thread(case 1): 6
+Even thread(case 1): 8
+Even thread(case 1): 10
+Odd thread(case 1): 1
+Odd thread(case 1): 3
+Odd thread(case 1): 5
+Odd thread(case 1): 7
+Odd thread(case 1): 9
+Even thread: 0
+Odd thread: 1
+Even thread: 2
+Odd thread: 3
+Even thread: 4
+Odd thread: 5
+Even thread: 6
+Odd thread: 7
+Even thread: 8
+Odd thread: 9
+Even thread: 10
